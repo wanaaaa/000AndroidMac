@@ -1,0 +1,5 @@
+1. As a user, I can see the list of item.
+2. As a user, I can save the item into shopping cart.
+3. As a user, I can delete the item in  shlpping cart.
+4. As a user, I can save the all items after I log out.
+5. As a user, I can see same items after I log in.

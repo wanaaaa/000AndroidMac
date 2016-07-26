@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_41115dac5aec6dc6b9fcde1d566e3ab21fce37e6.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.1.1_d97f6a4d0130f9f81ab03da046c7a31c41c8b04c.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.1.1/support-annotations-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/support-annotations-24.1.1_968ad0c7764632563645a8ce802a0df70222a969.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="787871951412550519b0222aba3c9df4cea49875">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.1.1_614512909bc57a66fb29df44d7f4b545c2331f0d.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.android.support-design-24.0.0_3bf8583c6edef7e5bcd851d1419e170b6b578c9d.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.0.0_a22f757eae652e798b9782d3b95933b79316ce72.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_561f7c70c03a5358314fc72f0c6334bbf07f904a.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.1.1/jars/libs/internal_impl-24.1.1.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/internal_impl-24.1.1_480b2279a09f63aafdca761c29f5eb878c58d942.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.0.0_e234c2c904a24ccb16a841f511b2631cc6c426cd.jar" />
+    </item>
+    <item
+        jar="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/wanmac/Documents/000Android/project/Project-2---Ecommerce-Mobile-App-00fragment/version001/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.0.0_976881f6d4476c6a4ddfd990dcba6ddf720895c8.jar" />
+    </item>
+
+</items>
