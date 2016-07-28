@@ -10,4 +10,8 @@
         android:text="Call me...1-718-813-3810"
         android:id="@+id/textView4"
         android:layout_gravity="center_horizontal" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cartRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>

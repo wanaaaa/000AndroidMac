@@ -4,35 +4,35 @@ package com.ga.android.myapplication;
  * Created by wanmac on 7/20/16.
  */
 public class DaIndiItem {
-    String iteTitle, iteDescrip, iteImgURL, userName;
-    int itePrice;
-    boolean qIteCart;
+    String mIteTitle, mIteDescrip, mIteImgURL, mUserName;
+    int mItePrice;
+    boolean mQIteCart;
 
     public DaIndiItem(){
-        iteDescrip = "description asdf";
-        iteImgURL = "url asf";
-        userName = "Wan";
-        itePrice = 2345;
-        qIteCart = false;
+        mIteDescrip = "description asdf";
+        mIteImgURL = "url asf";
+        mUserName = "Wan";
+        //mItePrice = 2345;
+        mQIteCart = false;
     }
 
     public DaIndiItem(String iteTitle, int price){
-        this.iteTitle = iteTitle;
-        this.itePrice = price;
+        mIteTitle = iteTitle;
+        mItePrice = price;
     }
 
     public String getIteTitle() {
-        return iteTitle;
+        return mIteTitle;
     }
 
     public void setIteTitle(String str) {
-        iteTitle = str;
+        mIteTitle = str;
     }
 
     public int getItePrice() {
-        return  itePrice;
+        return  mItePrice;
     }
     public void setItePrice(int price) {
-        this.itePrice = price;
+        mItePrice = price;
     }
 }

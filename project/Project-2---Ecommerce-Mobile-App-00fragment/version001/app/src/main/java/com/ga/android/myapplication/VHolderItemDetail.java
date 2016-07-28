@@ -10,7 +10,7 @@ import android.widget.TextView;
  */
 public class VHolderItemDetail extends RecyclerView.ViewHolder {
     public TextView mItemTitle, mItemPrice;
-    public Button mBuDelete, mBuGoCart;
+    public Button mBuDelete, mBuGoCart, mDelItemCart;
     public VHolderItemDetail(View itemView) {
         super(itemView);
 
@@ -18,5 +18,6 @@ public class VHolderItemDetail extends RecyclerView.ViewHolder {
         mItemPrice = (TextView) itemView.findViewById(R.id.itemPrice);
         mBuDelete = (Button) itemView.findViewById(R.id.buDeleteIndi);
         mBuGoCart = (Button) itemView.findViewById(R.id.buShoppinCart);
+        mDelItemCart = (Button) itemView.findViewById(R.id.cartItemDelet);
     }
 }

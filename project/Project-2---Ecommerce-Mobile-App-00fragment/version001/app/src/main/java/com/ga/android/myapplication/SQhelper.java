@@ -6,11 +6,15 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.provider.BaseColumns;
+import android.util.Log;
+
+import java.util.ArrayList;
 
 /**
  * Created by wanmac on 7/20/16.
  */
 public class SQhelper extends SQLiteOpenHelper {
+    private static final String TAG = "SQhelper///";
     public SQhelper(Context context) {
         super(context, "db", null, 1);
     }
@@ -66,6 +70,32 @@ public class SQhelper extends SQLiteOpenHelper {
         SQLiteDatabase db = getWritableDatabase();
         db.execSQL(SQL_DELETE_ENTRIES_ITEMS);
         db.execSQL(SQL_CREATE_ENTRIES_ITEMS);
+    }
+
+    public ArrayList<DaIndiItem> returnAllArrayList() {
+        SQLiteDatabase db = getReadableDatabase();
+
+        Cursor cursor;
+        cursor = this.getAllItem();
+
+        ArrayList<DaIndiItem> arrayList = new ArrayList<>();
+
+        cursor.moveToFirst();
+        while (cursor.isAfterLast()==false) {
+            String itemTitle = cursor.getString(cursor.getColumnIndex(DataEntryItem
+                    .COLUMN_TITLE));
+            String itemPrice = cursor.getString(cursor.getColumnIndex(DataEntryItem
+                    .COLUMN_PRICE));
+            int intItemPrice = Integer.parseInt(itemPrice);
+            DaIndiItem itemDetail = new DaIndiItem();
+            itemDetail.setIteTitle(itemTitle);
+            itemDetail.setItePrice(intItemPrice);
+            Log.d(TAG, String.valueOf(itemDetail));
+            arrayList.add(itemDetail);
+            cursor.moveToNext();
+        }
+
+        return arrayList;
     }
     ///////////////////////////////////////
     public Cursor getAllItem() {

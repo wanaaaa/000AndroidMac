@@ -26,9 +26,8 @@
         android:layout_height="wrap_content"
         android:hint="Title Input"
         android:textSize="22sp"
-        android:layout_marginTop="77dp"
         android:layout_below="@+id/textView6"
-        android:layout_alignStart="@+id/textView6" />
+        android:layout_alignStart="@+id/buResetData" />
     <EditText
         android:id="@+id/editInputPrice"
         android:layout_width="wrap_content"
@@ -44,5 +43,14 @@
         android:text="Reset Database"
         android:id="@+id/buResetData"
         android:layout_below="@+id/editInputPrice"
+        android:layout_centerHorizontal="true" />
+
+
+    <ListView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/listview_allItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buResetData"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
