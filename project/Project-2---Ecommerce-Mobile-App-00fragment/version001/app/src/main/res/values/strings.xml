@@ -38,4 +38,6 @@
 
     </string-array>
     <string name="title_activity_mm_data_input">MmDataInputActivity</string>
+    <string name="title_activity_mm_search">MmSearchActivity</string>
+    <string name="title_activity_mm_detail">MmDetailActivity</string>
 </resources>

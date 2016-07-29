@@ -107,5 +107,15 @@ public class SQhelper extends SQLiteOpenHelper {
         return cursor;
     }
 
+    public Cursor serachTitle(String query){
+        SQLiteDatabase db = this.getReadableDatabase();
+
+        Cursor cursor = db.query(DataEntryItem.TABLE_NAME,
+                COLUMN_NAMES,
+                DataEntryItem.COLUMN_TITLE + " LIKE ?",
+                new String[] {"%"+ query + "%"},
+                null, null, null, null);
+        return cursor;
+    }
 }
 
