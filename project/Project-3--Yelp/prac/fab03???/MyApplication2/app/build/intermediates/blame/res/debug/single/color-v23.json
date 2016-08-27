@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/documents_wan/000Android/project/Project-3--Yelp/Project-3---Team-Project/Yelp/fab03/MyApplication2/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.1.1/res/color-v23/abc_tint_switch_track.xml"
+    }
+]

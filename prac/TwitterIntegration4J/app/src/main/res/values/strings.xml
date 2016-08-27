@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TwitterIntegration</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_t">Login with Twitter</string>
+    <string name="username">User Name</string>
+    <string name="avatar">Avatar</string>
+    <string name="logout">Logout From Twitter</string>
+    <string name="id">UserID</string>
+</resources>
