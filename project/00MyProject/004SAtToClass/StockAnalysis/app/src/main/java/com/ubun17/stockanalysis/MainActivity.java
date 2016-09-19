@@ -1,5 +1,6 @@
 package com.ubun17.stockanalysis;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
     Button buTest01, butest02, buSearch;
     EditText searchTerm;
+    Activity mActivity;
 
     ListView mListView;
     ArrayAdapter<String> mAdapter;
@@ -42,27 +44,30 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });//End of Buton01
+        mActivity = this;
 
         buSearch.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Log.d("buton search", "clicked/////////");
                 String stSearchTerm = searchTerm.getText().toString();
-                CompanySymbolCall symAPI = new CompanySymbolCall(stSearchTerm);
-                mArrayList.clear();
+                //mArrayList.clear();
+                CompanySymbolCall symAPI = new CompanySymbolCall(stSearchTerm, mActivity);
+                symAPI.ComSymbolAPI();
+
                // mArrayList = symAPI.ComSymbolAPI();
 //                Log.d("mArrayList", symAPI.ComSymbolAPI().get(0)+"aaaaaaaaaaaaaaaa" );
-                mAdapter.notifyDataSetChanged();
+                //mAdapter.notifyDataSetChanged();
 
             }//End of onClick
         });//End of BuSearch
 
 
 
-        mArrayList = new ArrayList<String>();
-        mListView = (ListView) findViewById(R.id.listView);
-        mAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, mArrayList);
-        mListView.setAdapter(mAdapter);
+//        mArrayList = new ArrayList<String>();
+//        mListView = (ListView) findViewById(R.id.listView);
+//        mAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, mArrayList);
+//        mListView.setAdapter(mAdapter);
 
 
         butest02.setOnClickListener(new View.OnClickListener(){

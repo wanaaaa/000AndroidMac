@@ -1,9 +1,12 @@
 package com.ubun17.stockanalysis.APIcall;
 
+import android.app.Activity;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.ubun17.stockanalysis.APIObject.FindCompanySymbol.LookUpCompanies;
+import com.ubun17.stockanalysis.MainActivity;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -14,13 +17,16 @@ import okhttp3.Request;
 /**
  * Created by ubun17 on 9/18/16.
  */
-public class CompanySymbolCall {
+public class CompanySymbolCall extends MainActivity {
+
     String stSearchCompany;
     ArrayList<String> mArryList;
+    Activity mActivity;
 
-    public CompanySymbolCall (String str) {
+    public CompanySymbolCall (String str, Activity activity) {
         stSearchCompany = str;
         mArryList = new ArrayList<String>();
+        mActivity = activity;
     }
 
     public ArrayList<String> ComSymbolAPI() {
@@ -55,13 +61,30 @@ public class CompanySymbolCall {
                     int num = lookUpCompanies.getCompanies().size();
                     for (int i = 0; i < num; i++) {
                         String stSymbol = lookUpCompanies.getCompanies().get(i).getSymbol();
+                        mArryList.add(stSymbol);
                         arrayLitforView.add(stSymbol);
                         Log.d("response", arrayLitforView.get(0)+"  sssssssss");
                     }
+                    mActivity.runOnUiThread(new Runnable() {
+                        @Override
+                        public void run() {
+                            Log.d("array before return", arrayLitforView.get(0)+"aaaaaaaaaaaaaaaaaaaaaaaapple");
+                            Toast.makeText(mActivity.getApplicationContext(),
+                                    "make toast", Toast.LENGTH_LONG).show();
+                            //return arrayLitforView;
+                        }
+                    });
+
+//                    MainActivity.this.runOnUiThread(new Runnable() {
+//                        @Override
+//                        public void run() {
+//
+//                        }
+//                    });
                 }
-            }
+            }//End On Response
         });//End of client
-        Log.d("array before return", arrayLitforView.get(0)+"aaaaaaaaaaaaaaaaaaaaaaaapple");
+        //Log.d("array before return", mArryList.get(0)+"////////////////////////////////");
         return arrayLitforView;
     }//End of ComSymbolAPI
 

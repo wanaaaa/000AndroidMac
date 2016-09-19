@@ -58,7 +58,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Location location = lm.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
         double longitute = location.getLongitude();
         double latitude = location.getLatitude();
-        Log.d("logi", String.valueOf(longitute)+"asdfasdfasdfasdfasdfa");
+        Log.d("logi", String.valueOf(longitute)+"asdfasdfasdfasdfasdfa/////////////////////");
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(-34, 151);
